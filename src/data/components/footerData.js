@@ -1,4 +1,4 @@
-import { Instagram, Linkedin, Dribbble, Github, Twitter, Facebook } from "lucide-react";
+import { Instagram, Linkedin, Youtube } from "lucide-react";
 
 export const awardData = [
   {
@@ -36,28 +36,10 @@ export const socialmediaData = [
     index: 2,
   },
   {
-    name: "Dribbble",
-    icon: Dribbble,
+    name: "Youtube",
+    icon: Youtube,
     to: "https://dribbble.com/fakhrialfi9",
     index: 3,
-  },
-  {
-    name: "Github",
-    icon: Github,
-    to: "https://github.com/Fakhrialfi9",
-    index: 4,
-  },
-  {
-    name: "Twitter",
-    icon: Twitter,
-    to: "/",
-    index: 5,
-  },
-  {
-    name: "Facebook",
-    icon: Facebook,
-    to: "/",
-    index: 6,
   },
 ];
 
