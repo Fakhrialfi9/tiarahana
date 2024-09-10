@@ -1,0 +1,194 @@
+@font-face {
+  font-family: "GazpachoMedium";
+  src: url(../../../assets/font/Gazpacho/GazpachoMedium.ttf);
+}
+
+@font-face {
+  font-family: "ColumbiaSerialRegular";
+  src: url(../../../assets/font/Columbia-Serial-Regular/Columbia-Serial-Regular.ttf);
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: 100dvh;
+  min-height: 100dvh;
+  max-height: 100dvh;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+  gap: 2rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  min-width: 30%;
+  max-width: 30%;
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+  gap: 2rem;
+}
+
+.header > h2 {
+  font-family: "GazpachoMedium", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+
+.header > p {
+  font-family: "ColumbiaSerialRegular", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+
+.header > button {
+  background-color: transparent;
+  border-radius: 0;
+  padding: 0.65rem 0;
+  color: var(--primary-color);
+  font-size: 1.05rem;
+  font-weight: 500;
+  gap: 0.5rem;
+  border-bottom: 0.085rem solid transparent;
+}
+
+.header > button:hover {
+  background-color: transparent;
+  color: var(--primary-color);
+  border-bottom: 0.085rem solid var(--primary-color);
+  border-radius: 0;
+}
+
+.header > button > code {
+  display: flex;
+  flex-direction: row;
+  width: 2rem;
+  min-width: 2rem;
+  max-width: 2rem;
+  height: 2rem;
+  min-height: 2rem;
+  max-height: 2rem;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  padding: 0 !important;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 0.085rem solid var(--primary-color);
+  color: var(--primary-color);
+  transition: all 0.5s ease;
+}
+
+.header > button:hover > code {
+  border: 0.085rem solid var(--primary-color);
+  background-color: var(--primary-color);
+  color: rgb(255, 255, 255);
+}
+
+.header > button:hover {
+  box-shadow: none;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  min-width: 70%;
+  max-width: 70%;
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+}
+
+.gallerycontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+  gap: 1rem;
+}
+
+.grid {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+  background-image: url(../../../../public/image/imageproduct/photo-1502005097973-6a7082348e28.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50rem;
+  min-height: auto;
+  max-height: 50rem;
+  border-radius: var(--border-radius-lg);
+}
+
+.grid:nth-child(2) {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  background-image: url(../../../../public/image/imageproduct/photo-1507089947368-19c1da9775ae.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 24.5rem;
+  min-height: auto;
+  max-height: 24.5rem;
+  border-radius: var(--border-radius-lg);
+}
+
+.grid:nth-child(3) {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  background-image: url(../../../../public/image/imageproduct/photo-1516455590571-18256e5bb9ff.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 24.5rem;
+  min-height: auto;
+  max-height: 24.5rem;
+  border-radius: var(--border-radius-lg);
+}
+
+.grid:nth-child(4) {
+  grid-column: 3 / 4;
+  grid-row: 1 / 3;
+  background-image: url(../../../../public/image/imageproduct/photo-1564078516393-cf04bd966897.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50rem;
+  min-height: auto;
+  max-height: 50rem;
+  border-radius: var(--border-radius-lg);
+}

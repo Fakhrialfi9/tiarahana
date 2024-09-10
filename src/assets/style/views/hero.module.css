@@ -1,0 +1,200 @@
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: 100%;
+  min-height: 100dvh;
+  max-height: 100dvh;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  min-height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+  z-index: 99;
+  gap: 1.5rem;
+}
+
+.header > h1 {
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+.header > p {
+  width: 35%;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.cardbooking {
+  position: absolute;
+  bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: 11rem;
+  min-height: 11rem;
+  max-height: 11rem;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 1.5rem;
+  background-color: rgb(255, 255, 255, 0.8);
+  backdrop-filter: blur(5rem);
+  border-radius: var(--border-radius-lg);
+  border: 0.085rem solid var(--diver-color-solid-0);
+}
+
+.cardbooking > form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.cardbooking > form > .formgroup {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  min-height: auto;
+  max-height: auto;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+  gap: 2rem;
+}
+
+.cardbooking > form > .formgroup > .inputgroup {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: auto;
+  max-width: 100%;
+  height: auto;
+  min-height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+  gap: 0.5rem;
+}
+
+.cardbooking > form > .formgroup > .inputgroup > label {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--background-color-solid-0);
+}
+
+.cardbooking > form > .formgroup > .inputgroup > input,
+.cardbooking > form > .formgroup > .inputgroup > select {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  min-height: auto;
+  max-height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  background-color: var(--text-color-solid-100);
+  border: 0.1rem solid var(--diver-color-solid-500);
+  color: var(--background-color-solid-0);
+}
+
+.cardbooking > form > .formgroup > .filteraction {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-width: auto;
+  max-width: 100%;
+  height: auto;
+  min-height: auto;
+  max-height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+}
+
+.cardbooking > form > .formgroup > .filteraction:nth-child(2) {
+  justify-content: flex-end;
+}
+
+.cardbooking > form > .formgroup > .filteraction > h5 {
+  color: var(--background-color-solid-0);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.cardbooking > form > .formgroup > .filteraction > button {
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: var(--border-radius-2xl);
+  background-color: var(--text-color-solid-0);
+  border: 0.1rem solid var(--diver-color-solid-500);
+  color: var(--background-color-solid-0);
+}
+
+.cardbooking > form > .formgroup > .filteraction > button:hover {
+  background-color: var(--text-color-solid-200);
+}
+
+.cardbooking > form > .formgroup > .filteraction > button:focus,
+.cardbooking > form > .formgroup > .filteraction > button:active {
+  background-color: var(--primary-color);
+  color: var(--text-color-solid-0);
+}
+
+.cardbooking > form > .formgroup > .filteraction:nth-child(2) > button {
+  background-color: var(--primary-color);
+  color: var(--text-color-solid-0);
+  border-radius: var(--border-radius);
+  border: 0.1rem solid transparent;
+  gap: 0.5rem;
+}
+
+.cardbooking > form > .formgroup > .filteraction:nth-child(2) > button:hover {
+  background-color: var(--primary-color);
+}

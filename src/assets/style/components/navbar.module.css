@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+
+.navbar {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  min-width: 100vw;
+  max-width: 100vw;
+  height: auto;
+  min-height: 1.5rem;
+  max-height: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+  background-color: transparent;
+  z-index: 999999;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+  background-color: rgb(3, 28, 55, 0.85);
+  backdrop-filter: blur(5rem);
+  border-bottom: 0.085rem solid var(--diver-color-solid-0);
+  backdrop-filter: blur(1rem);
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  min-height: auto;
+  max-height: auto;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0.5rem 0;
+  gap: 1rem;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  min-width: auto;
+  max-width: auto;
+  height: auto;
+  min-height: auto;
+  max-height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+  gap: 0.5rem;
+}
+
+.left > img {
+  width: 2.5rem;
+  min-width: 2.5rem;
+  max-width: 2.5rem;
+}
+
+.left > h5 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+
+.center {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  width: auto;
+  min-width: auto;
+  max-width: auto;
+  height: auto;
+  min-height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.center > ul {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  min-height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+  gap: 2.5rem;
+}
+
+.center > ul > li {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  min-width: auto;
+  max-width: auto;
+  height: auto;
+  min-height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.center > ul > li > a {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  min-width: auto;
+  max-width: auto;
+  height: auto;
+  min-height: auto;
+  max-height: auto;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.right > ul {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  min-height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+  gap: 1rem;
+}
+
+.right > ul > li {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  min-width: auto;
+  max-width: auto;
+  height: auto;
+  min-height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  padding: 0.35rem 0.7rem;
+  background-color: var(--primary-color);
+  border: 0.085rem solid var(--diver-color-solid-0);
+  border-radius: var(--border-radius);
+}
+
+.right > ul > li > a > span {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  min-width: auto;
+  max-width: auto;
+  height: auto;
+  min-height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.right > ul > li > a {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  min-width: auto;
+  max-width: auto;
+  height: auto;
+  min-height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.right > ul > li:nth-child(2) {
+  background-color: rgb(255, 255, 255);
+  border: 0.085rem solid var(--diver-color-solid-0);
+  border-radius: var(--border-radius);
+}
+
+.right > ul > li:nth-child(2) > a {
+  color: var(--primary-color);
+}
