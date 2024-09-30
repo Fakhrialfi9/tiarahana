@@ -36,12 +36,14 @@
 .header > h1 {
   font-size: 3.5rem;
   font-weight: 400;
+    color:white !important;
 }
 
 .header > p {
   width: 35%;
   font-size: 1rem;
   font-weight: 400;
+    color:white !important;
 }
 
 .cardbooking {
@@ -119,7 +121,7 @@
 .cardbooking > form > .formgroup > .inputgroup > label {
   font-size: 0.85rem;
   font-weight: 400;
-  color: var(--background-color-solid-0);
+  color: var(--primary-color);
 }
 
 .cardbooking > form > .formgroup > .inputgroup > input,
@@ -136,7 +138,7 @@
   align-items: center;
   align-content: center;
   margin: 0;
-  background-color: var(--text-color-solid-100);
+  background-color: white !important;
   border: 0.1rem solid var(--diver-color-solid-500);
   color: var(--background-color-solid-0);
 }
@@ -172,9 +174,9 @@
   font-size: 0.75rem;
   font-weight: 600;
   border-radius: var(--border-radius-2xl);
-  background-color: var(--text-color-solid-0);
+  background-color: var(--primary-color) !important;
   border: 0.1rem solid var(--diver-color-solid-500);
-  color: var(--background-color-solid-0);
+  color: white !important;
 }
 
 .cardbooking > form > .formgroup > .filteraction > button:hover {
@@ -184,11 +186,11 @@
 .cardbooking > form > .formgroup > .filteraction > button:focus,
 .cardbooking > form > .formgroup > .filteraction > button:active {
   background-color: var(--primary-color);
-  color: var(--text-color-solid-0);
+  color: white !important;
 }
 
 .cardbooking > form > .formgroup > .filteraction:nth-child(2) > button {
-  background-color: var(--primary-color);
+  background-color: var(--primary-color) !important;
   color: var(--text-color-solid-0);
   border-radius: var(--border-radius);
   border: 0.1rem solid transparent;
