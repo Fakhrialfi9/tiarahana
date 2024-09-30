@@ -223,11 +223,16 @@
   font-weight: 600;
 }
 
+
 .right > ul > li:nth-child(2) {
   background-color: rgb(255, 255, 255);
   border: 0.085rem solid var(--diver-color-solid-0);
   border-radius: var(--border-radius);
-    color:white !important;
+}
+
+.right > ul > li:nth-child(1) > a,
+.right > ul > li:nth-child(3) > a{
+  color:white !important;
 }
 
 .right > ul > li:nth-child(2) > a {
