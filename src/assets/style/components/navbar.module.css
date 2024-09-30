@@ -130,6 +130,7 @@
 .center > ul > li > a {
   font-size: 0.9rem;
   font-weight: 400;
+  color:white !important;
 }
 
 .right {
