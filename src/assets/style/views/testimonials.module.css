@@ -48,7 +48,7 @@
   font-family: "GazpachoMedium", sans-serif;
   font-size: 2.5rem;
   font-weight: 400;
-  color: var(--text-color-solid-0);
+  color:white !important; 
   text-align: right;
 }
 
@@ -56,7 +56,7 @@
   font-family: "ColumbiaSerialRegular", sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  color: var(--text-color-solid-0);
+  color:white !important; 
   text-align: right;
 }
 
@@ -64,7 +64,7 @@
   background-color: transparent;
   border-radius: 0;
   padding: 0.65rem 0;
-  color: var(--text-color-solid-0);
+  color: white !important;
   font-size: 1.05rem;
   font-weight: 500;
   gap: 0.5rem;
@@ -73,8 +73,8 @@
 
 .header > button:hover {
   background-color: transparent;
-  color: var(--text-color-solid-0);
-  border-bottom: 0.085rem solid var(--text-color-solid-0);
+  color: white !important;
+  border-bottom: 0.085rem solid white !important;
   border-radius: 0;
 }
 
@@ -94,15 +94,15 @@
   padding: 0 !important;
   border-radius: 50%;
   background-color: transparent;
-  border: 0.085rem solid var(--text-color-solid-0);
-  color: var(--text-color-solid-0);
+  border: 0.085rem solid white !important;
+  color: white !important;
   transition: all 0.5s ease;
 }
 
 .header > button:hover > code {
-  border: 0.085rem solid var(--primary-color);
-  background-color: var(--text-color-solid-0);
-  color: var(--primary-color);
+  border: 0.085rem solid white !important;
+  background-color: var(--primary-color) !important;
+  color: white !important;
 }
 
 .header > button:hover {
