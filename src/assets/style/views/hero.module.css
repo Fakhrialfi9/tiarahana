@@ -140,7 +140,7 @@
   margin: 0;
   background-color: white !important;
   border: 0.1rem solid var(--diver-color-solid-500);
-  color: var(--background-color-solid-0);
+  color: var(--primary-color);
 }
 
 .cardbooking > form > .formgroup > .filteraction {
