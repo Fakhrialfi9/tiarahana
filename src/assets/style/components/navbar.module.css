@@ -75,6 +75,7 @@
   font-optical-sizing: auto;
   font-size: 1.05rem;
   font-weight: 500;
+    color:white !important;
 }
 
 .center {
@@ -226,6 +227,7 @@
   background-color: rgb(255, 255, 255);
   border: 0.085rem solid var(--diver-color-solid-0);
   border-radius: var(--border-radius);
+    color:white !important;
 }
 
 .right > ul > li:nth-child(2) > a {
